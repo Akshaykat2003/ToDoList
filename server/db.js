@@ -6,6 +6,7 @@ module.exports = async () => {
             useNewUrlParser: true,
             useCreateIndex: true,
             useUnifiedTopology: true,
+            useFindAndModify: false,  // Add this option to prevent the deprecation warning
         };
         await mongoose.connect(
             "mongodb://localhost/todo-app",
