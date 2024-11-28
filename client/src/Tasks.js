@@ -66,14 +66,7 @@ class Tasks extends Component {
         }
     };
 
-    render() {
-        // Render tasks in the component
-        return (
-            <div>
-                {/* Your task rendering JSX goes here */}
-            </div>
-        );
-    }
+   
 }
 
 export default Tasks;
